@@ -23,7 +23,7 @@ weather-app-react/
 ├── src/
 │   ├── assets/
 │   │   ├── bg.mp4
-│   │   ├── react.svg
+│   │   ├── WeatherBanner.jpg
 │   │   └── WeatherIcon.ico
 │   ├── components/
 │   │   ├── SearchBar.tsx
