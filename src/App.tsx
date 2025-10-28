@@ -3,7 +3,6 @@ import { useState } from "react";
 import axios from "axios";
 import WeatherCard from "./components/WeatherCard";
 import video from "./assets/bg.mp4";
-
 function App() {
   const [weather, setWeather] = useState("");
   const [loading, setLoading] = useState(false);
@@ -27,15 +26,24 @@ function App() {
         setError("Đã xảy ra lỗi. Vui lòng thử lại.");
       }
       setWeather("");
-    } finally{
+    } finally {
       setLoading(false);
     }
   };
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-linear-to-r from-teal-300 to-cyan-200 relative overflow-hidden">
-      <video className ="absolute w-full h-full object-cover"
-       autoPlay loop muted>
-        <source src={video} type="video/mp4" className="fixed w-full h-full object-cover z-0"/>
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source
+          src={video}
+          type="video/mp4"
+          className="fixed w-full h-full object-cover z-0"
+        />
       </video>
       <div className="p-8 bg-black/70 text-white bg-opacity-70 rounded-lg shadow-lg z-99">
         <h1 className="text-3xl font-bold text-center mb-6">
