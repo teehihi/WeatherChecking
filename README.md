@@ -94,7 +94,7 @@ Sau đó mở trình duyệt tại:
 
 **Nguyễn Nhật Thiên (TEE)**  
 
-📧 Liên hệ: [GitHub](https://github.com/tee)
+📧 Liên hệ: [GitHub]([https://github.com/tee](https://github.com/teehihi))
 
 🔗 Know more about Tee: [Linktree: nkqt.tee](https://linktr.ee/nkqt.tee)  
 
